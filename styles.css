@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+#header {
+  height: 30%;
+  width: 100%;
+  background-color: blue;
+}
+
+#main-wrapper {
+  height: 100%;
+  width: 100%;
+  /*background-color: red;*/
+}
+
+#footer {
+  height: 30%;
+  width: 100%;
+  background-color: yellow;
+}
+
+.image-wrapper {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  /*padding: 0% 0% 0%;*/
+}
+
+.image1, .image2,
+.image3, .image4 {
+  height: 50%;
+  width: 50%;
+  padding: 0.5em;
+}
+
+.image1, .image3 {
+  float: left;
+}
+
+.image2, .image4 {
+  float: right;
+}
