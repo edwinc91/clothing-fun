@@ -74,8 +74,10 @@ body {
 
 .image1, .image2,
 .image3, .image4 {
-  height: 100%;
-  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  border: 5px solid #fff;
+  box-shadow: 0px 0px 5px #aaa;
   /*position: relative;*/
 }
 
@@ -136,24 +138,54 @@ img:hover {
 
 @media (min-width: 1024px) {
   .main-nav {
-     margin-bottom: -13%;
+     margin-bottom: -10%;
+  }
+}
+
+@media (min-width: 1024px) and (min-height: 768px) {
+  .main-nav {
+    margin-bottom: -15%;
   }
 }
 
 @media (min-width: 1128px) {
   .main-nav {
-    margin-bottom: -16%;
+    margin-bottom: -9%;
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1128px) and (min-height: 768px) {
   .main-nav {
-    margin-bottom: -10%;
+    margin-bottom: -13%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-nav {
+    margin-bottom: -10.4%;
+  }
+}
+
+@media (min-width: 1280px) and (min-height: 720px) {
+  .main-nav {
+    margin-bottom: -10.9%;
+  }
+}
+
+@media (min-width: 1280px) and (min-height: 800px) {
+  .main-nav {
+    margin-bottom: -12%;
   }
 }
 
 @media (min-width: 1328px) {
   .main-nav {
-    margin-bottom: -13.5%;
+    margin-bottom: -13.7%;
+  }
+}
+
+@media (min-width: 1366px) and (min-height: 768px) {
+  .main-nav {
+    margin-bottom: -11%;
   }
 }
