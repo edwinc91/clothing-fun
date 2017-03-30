@@ -142,7 +142,7 @@ a:hover {
   /*text-align: center;*/
   border: 1px solid black;
   width: 70%;
-  margin: 1.5% 0;
+  margin: 0.4em 0 1em;
   line-height: 1;
   padding: 4px;
 }
@@ -224,7 +224,7 @@ a:hover {
   margin: 0 auto;
   width: 100%;
   height: 17%;
-  border-bottom: 7px solid gray;
+  border-bottom: 4px solid black;
 }
 
 .middle-left-wrapper,
@@ -327,12 +327,12 @@ a:hover {
   clear: both;
   height: 19%;
   /*width: 100%;*/
-  border-bottom: 7px solid gray;
+  border-bottom: 4px solid black;
 }
 
 .fourth-container-left,
 .fourth-container-right {
-  border-top: 7px solid gray;
+  border-top: 4px solid black;
 }
 
 .fourth-container-left {
@@ -400,7 +400,8 @@ a:hover {
 }
 
 
-.fourth-container-list {
+.fourth-container-list,
+.fifth-container-list {
   list-style: none;
   padding-left: 0;
 }
@@ -410,44 +411,53 @@ a:hover {
   font-size: 1.1em;
 }
 
+.fifth-container {
+  clear: both;
+  height: 50%;
+  /*border-bottom: 1px solid black;*/
+  /*width: 90%;*/
+  padding: 1em 15% 0;
+  /*margin: 0 auto;*/
+  background-color: #EFE9E5;
+}
+
+.fifth-container-one,
+.fifth-container-two,
+.fifth-container-three,
+.fifth-container-four {
+  width: 20%;
+  margin-left: 5%;
+}
+
+.fifth-container-one,
+.fifth-container-two {
+  float: left;
+}
+
+.fifth-container-three,
+.fifth-container-four {
+  float: right;
+}
+
+.fifth-container-list-header {
+  text-transform: uppercase;
+  /*border-bottom: 1px solid gray;*/
+}
+
+.fifth-container-one > ul,
+.fifth-container-two > ul,
+.fifth-container-three > ul,
+.fifth-container-four > ul {
+  border-top: 1px solid gray;
+  line-height: 2;
+  margin-top: 0.5em;
+  padding-top: 0.5em;
+}
+
 #footer {
   height: 30%;
   width: 100%;
   background-color: yellow;
-}
-
-.image-container-wrapper {
-  width: 80%;
-  height: 96%;
-  margin: 0 auto;
-  /*padding: 0% 0% 0%;*/
-}
-
-.image-wrapper {
-  width: 49%;
-  height: 49%;
-  overflow: hidden;
-  /*position: relative;*/
-  margin: 0.5%;
-  border: 5px solid #fff;
-  box-shadow: 0px 0px 5px #aaa;
-}
-
-.image1, .image2,
-.image3, .image4 {
-  max-height: 100%;
-  max-width: 100%;
-  border: 5px solid #fff;
-  box-shadow: 0px 0px 5px #aaa;
-  /*position: relative;*/
-}
-
-.one, .three {
-  float: left;
-}
-
-.two, .four {
-  float: right;
 }
 
 /*img {
