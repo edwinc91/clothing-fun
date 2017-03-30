@@ -221,7 +221,7 @@ body {
 .middle-right-image {
   width: 100%;
   padding: 0.4em 1em;
-  max-height: 220px;
+  max-height: 216px;
 }
 
 /*.middle-text-header,
@@ -245,7 +245,7 @@ body {
   clear: both;
   height: 15%;
   width: 100%;
-  border-bottom: 7px solid gray;
+  /*border-bottom: 7px solid gray;*/
 }
 
 .third-container-header {
@@ -280,6 +280,78 @@ body {
   width: 56%;
   margin-left: 23%;
   /*max-height: 40%;*/
+}
+
+.fourth-container {
+  clear: both;
+  height: 20%;
+  /*width: 100%;*/
+  border-bottom: 7px solid gray;
+}
+
+.fourth-container-left,
+.fourth-container-right {
+  border-top: 7px solid gray;
+}
+
+.fourth-container-left {
+  float: left;
+  width: 65%;
+  /*border-top: 7px solid red;*/
+}
+
+.fourth-container-right {
+  float: right;
+  width: 30%;
+  /*border-top: 7px solid blue;*/
+}
+
+.fourth-container-header {
+  display: block;
+  margin: 0.4em 0;
+  font-size: 1.3em;
+  /*padding: 0.5em 0;*/
+}
+
+.fourth-container-left-one,
+.fourth-container-left-two,
+.fourth-container-left-three {
+  width: 32.8%;
+}
+
+.fourth-container-left-one {
+  float: left;
+}
+
+.fourth-container-left-two {
+  margin: 0 5px 5px 5px;
+  border-left: 2px solid lightgray;
+  border-right: 2px solid lightgray;
+  display: inline-block;
+}
+
+.fourth-container-left-three {
+  float: right;
+}
+
+.fourth-container-left-image {
+  width: 80%;
+  margin-left: 10%;
+  max-height: 229px;
+}
+
+.fourth-container-left-text {
+  margin-left: 10%;
+}
+
+.fourth-container-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.fourth-container-list > li > a {
+  color: black;
+  font-size: 1.1em;
 }
 
 #footer {
