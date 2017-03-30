@@ -7,6 +7,14 @@ body {
   /*padding-top: 5%;*/
 }
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
 #header {
   color: white;
   text-align: center;
@@ -105,7 +113,7 @@ body {
 
 .topleft-container {
   float: left;
-  width: 45%;
+  width: 42%;
 }
 
 .topright-container {
@@ -117,7 +125,7 @@ body {
 .topright-container {
   height: 33%;
   /*used to be 35%*/
-  margin: 0 auto;
+  margin: 0 auto 2em;
 }
 
 .new-arrivals {
@@ -133,7 +141,7 @@ body {
   /*font-size: 1em;*/
   /*text-align: center;*/
   border: 1px solid black;
-  width: 60%;
+  width: 70%;
   margin: 1.5% 0;
   line-height: 1;
   padding: 4px;
@@ -143,12 +151,20 @@ body {
   font-size: 1.5em;
 }
 
+.sale-box-top:hover {
+  cursor: pointer;
+}
+
+.sale-box-top:hover .sale-box-bottom{
+  text-decoration: underline;
+}
+
 .sale-box-bottom {
   font-size: 0.7em;
 }
 
 .topleft-image {
-  max-height: 64%;
+  width: 100%;
 }
 
 .topleft-bottom-header {
@@ -159,9 +175,18 @@ body {
   font-size: 1em;
 }
 
+.topleft-bottom:hover {
+  cursor: pointer;
+}
+
+.topleft-bottom:hover .topleft-bottom-link {
+  text-decoration: underline;
+}
+
+
 .topright-image {
   /*width: calc(100%-3em);*/
-  width: 96%;
+  width: 100%;
   /*margin-left: 4em;*/
   position:relative;
   z-index: 3;
@@ -170,12 +195,28 @@ body {
 .topright-text {
   position: relative;
   z-index: 4;
+  width: 32%;
   margin-top: -16em;
-  margin-right: 17em;
-  right: -18.8em;
-  padding: 1.2em;
-  font-size: 1.4em;
+  right: -21.1em;
+  padding: 0.5em 1em;
+  font-size: 1.3em;
   background-color: white;
+}
+
+.topright-header {
+  font-size: 0.7em;
+}
+
+.topright-link {
+  font-size: 0.6em;
+}
+
+.topright-container:hover {
+  cursor: pointer;
+}
+
+.topright-container:hover .topright-link {
+  text-decoration: underline;
 }
 
 .middle-container {
@@ -284,7 +325,7 @@ body {
 
 .fourth-container {
   clear: both;
-  height: 20%;
+  height: 19%;
   /*width: 100%;*/
   border-bottom: 7px solid gray;
 }
@@ -308,9 +349,13 @@ body {
 
 .fourth-container-header {
   display: block;
-  margin: 0.4em 0;
+  margin: 0.4em 0 0.8em;
   font-size: 1.3em;
   /*padding: 0.5em 0;*/
+}
+
+.fourth-container-right > span {
+  margin-bottom: 0.5em;
 }
 
 .fourth-container-left-one,
@@ -340,9 +385,20 @@ body {
   max-height: 229px;
 }
 
+.fourth-container-left-header,
 .fourth-container-left-text {
   margin-left: 10%;
 }
+
+.fourth-container-left-header {
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.fourth-container-link:hover {
+  text-decoration: none;
+}
+
 
 .fourth-container-list {
   list-style: none;

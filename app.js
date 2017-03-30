@@ -18,3 +18,19 @@ $(window).scroll(function() {
     // mainNavTopPadding();
   };
 });
+
+// If there is an actual sale, then this is the code to get a new link on click
+$('.sale-box-top').on('click', function() {
+  var saleLink = $('.sale-box-bottom').attr('href');
+  window.location.replace(saleLink);
+})
+
+$('.topleft-bottom').on('click', function() {
+  var topLeftBottomLink = $('.topleft-bottom-link').attr('href');
+  window.location.replace(topLeftBottomLink);
+})
+
+$('.topright-container').on('click', function() {
+  var topRightLink = $('.topright-link').attr('href');
+  window.location.replace(topRightLink);
+})
