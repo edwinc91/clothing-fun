@@ -101,11 +101,11 @@ a:hover {
 }
 
 #main-wrapper {
-  height: 300%;
+  height: 240%;
   /*used to be 200%*/
   width: 80%;
   /*padding: 0% 5% 5%;*/
-  margin: 15% auto -20%;
+  margin: 15% auto 10%;
   /*margin-top: 20%;
   margin-bottom: 10%;*/
   /*background-color: red;*/
@@ -123,8 +123,8 @@ a:hover {
 
 .topleft-container,
 .topright-container {
-  height: 33%;
-  /*used to be 35%*/
+  height: 40%;
+  /*used to be 33%*/
   margin: 0 auto 2em;
 }
 
@@ -223,7 +223,7 @@ a:hover {
   clear: both;
   margin: 0 auto;
   width: 100%;
-  height: 17%;
+  height: 23%;
   border-bottom: 4px solid black;
 }
 
@@ -304,7 +304,7 @@ a:hover {
 
 .third-container {
   clear: both;
-  height: 16%;
+  height: 20%;
   width: 100%;
   /*border-bottom: 7px solid gray;*/
 }
