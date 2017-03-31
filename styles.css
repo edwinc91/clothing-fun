@@ -3,10 +3,6 @@ html, body {
   height: 100%;
 }
 
-body {
-  /*padding-top: 5%;*/
-}
-
 a {
   color: black;
 }
@@ -21,15 +17,10 @@ a:hover {
   margin: 0 auto;
   background-color: black;
   height: 5%;
-  /*width: 100%;
-  position: fixed;
-  top: 0;*/
 }
 
 .main-nav {
   height: 128px;
-  /*used to be 20%*/
-  /*margin-bottom: -20%;*/
   margin-bottom: -128px;
   background-image: none;
   background-color: white;
@@ -58,13 +49,6 @@ a:hover {
 }
 
 .navbar-brand {
-  /*position: relative;*/
-  /*width: 30%;*/
-  /*margin-left: calc(35%-15px);
-  margin-right: calc(35%-15px);*/
-  /*float: left;
-  position: relative;
-  left: 50%;*/
   font-size: 2.5em;
 }
 
@@ -119,14 +103,8 @@ a:hover {
 }
 
 #main-wrapper {
-  height: 240%;
-  /*used to be 200%*/
   width: 80%;
-  /*padding: 0% 5% 5%;*/
   margin: 15% auto 10%;
-  /*margin-top: 20%;
-  margin-bottom: 10%;*/
-  /*background-color: red;*/
 }
 
 .topleft-container {
@@ -141,8 +119,6 @@ a:hover {
 
 .topleft-container,
 .topright-container {
-  height: 40%;
-  /*used to be 33%*/
   margin: 0 auto 2em;
 }
 
@@ -156,8 +132,6 @@ a:hover {
 }
 
 .sale-box {
-  /*font-size: 1em;*/
-  /*text-align: center;*/
   border: 1px solid black;
   width: 70%;
   margin: 0.4em 0 1em;
@@ -203,9 +177,7 @@ a:hover {
 
 
 .topright-image {
-  /*width: calc(100%-3em);*/
   width: 100%;
-  /*margin-left: 4em;*/
   position:relative;
   z-index: 3;
 }
@@ -252,12 +224,10 @@ a:hover {
 }
 
 .middle-left-wrapper {
-  /*width: 33%;*/
   float: left;
 }
 
 .middle-right-wrapper {
-  /*width: 33%;*/
   float: right;
 }
 
@@ -265,15 +235,8 @@ a:hover {
   margin: 0 5px 5px 5px;
   border-left: 2px solid lightgray;
   border-right: 2px solid lightgray;
-  /*width: 33%;*/
   display: inline-block;
 }
-
-/*.middle-container > img {
-  width: 31%;
-  float: left;
-  padding: 0.4em 1em;
-}*/
 
 .middle-left-image,
 .middle-middle-image,
@@ -282,11 +245,6 @@ a:hover {
   padding: 0.4em 1em;
   max-height: 216px;
 }
-
-/*.middle-text-header,
-.middle-text-text {
-  margin-left: 1em;
-}*/
 
 .middle-text-header {
   padding-top: 0.3em;
@@ -324,7 +282,6 @@ a:hover {
   clear: both;
   height: 20%;
   width: 100%;
-  /*border-bottom: 7px solid gray;*/
 }
 
 .third-container-header {
@@ -352,13 +309,11 @@ a:hover {
 .third-left-container > img {
   width: 60%;
   margin-left: 20%;
-  /*margin-top: -5%;*/
 }
 
 .third-right-container > img {
   width: 56%;
   margin-left: 23%;
-  /*max-height: 40%;*/
 }
 
 .third-container-left-link,
@@ -389,20 +344,17 @@ a:hover {
 .fourth-container-left {
   float: left;
   width: 65%;
-  /*border-top: 7px solid red;*/
 }
 
 .fourth-container-right {
   float: right;
   width: 30%;
-  /*border-top: 7px solid blue;*/
 }
 
 .fourth-container-header {
   display: block;
   margin: 0.4em 0 0.8em;
   font-size: 1.3em;
-  /*padding: 0.5em 0;*/
 }
 
 .fourth-container-right > span {
@@ -465,10 +417,7 @@ a:hover {
 .fifth-container {
   clear: both;
   height: 43%;
-  /*border-bottom: 1px solid black;*/
-  /*width: 90%;*/
   padding: 1em 12% 0;
-  /*margin: 0 auto;*/
   background-color: #EFE9E5;
 }
 
@@ -492,7 +441,6 @@ a:hover {
 
 .fifth-container-list-header {
   text-transform: uppercase;
-  /*border-bottom: 1px solid gray;*/
 }
 
 .fifth-container-one > ul,
