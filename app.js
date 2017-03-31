@@ -34,3 +34,28 @@ $('.topright-container').on('click', function() {
   var topRightLink = $('.topright-link').attr('href');
   window.location.replace(topRightLink);
 })
+
+$('.middle-left-wrapper').on('click', function() {
+  var secondWrapperLeftLink = $('.second-wrapper-left-link').attr('href');
+  window.location.replace(secondWrapperLeftLink);
+})
+
+$('.middle-middle-wrapper').on('click', function() {
+  var secondWrapperMiddleLink = $('.second-wrapper-middle-link').attr('href');
+  window.location.replace(secondWrapperMiddleLink);
+})
+
+$('.middle-right-wrapper').on('click', function() {
+  var secondWrapperRightLink = $('.second-wrapper-right-link').attr('href');
+  window.location.replace(secondWrapperRightLink);
+})
+
+$('.third-left-container').on('click', function() {
+  var thirdContainerLeftLink = $('.third-container-left-link').attr('href');
+  window.location.replace(thirdContainerLeftLink);
+})
+
+$('.third-right-container').on('click', function() {
+  var thirdContainerRightLink = $('.third-container-right-link').attr('href');
+  window.location.replace(thirdContainerRightLink);
+})
