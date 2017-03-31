@@ -446,10 +446,10 @@ a:hover {
 
 .fifth-container {
   clear: both;
-  height: 50%;
+  height: 43%;
   /*border-bottom: 1px solid black;*/
   /*width: 90%;*/
-  padding: 1em 15% 0;
+  padding: 1em 12% 0;
   /*margin: 0 auto;*/
   background-color: #EFE9E5;
 }
@@ -487,10 +487,34 @@ a:hover {
   padding-top: 0.5em;
 }
 
+.contact-us {
+  clear:both;
+  height: 20%;
+  padding-top: 3.5%;
+  text-align: center;
+}
+
+.contact-us-list > li {
+  list-style: none;
+  display: inline;
+  margin-right: 25px;
+}
+
 #footer {
-  height: 30%;
+  height: 35%;
   width: 100%;
-  background-color: yellow;
+  background-color: #EFE9E5;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#footer > a:hover {
+  text-decoration: none;
+}
+
+#footer > a {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 /*img {
