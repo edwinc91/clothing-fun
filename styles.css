@@ -455,7 +455,7 @@ a:hover {
 
 .contact-us {
   clear:both;
-  height: 20%;
+  height: 9em;
   padding-top: 3.5%;
   text-align: center;
 }
@@ -1064,7 +1064,7 @@ img:hover {
   }
 
   .contact-us {
-    height: 10%;
+    height: 9em;
     padding-top: 4%;
   }
 
